@@ -1,0 +1,76 @@
+.thumbnail {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 16.67%;
+    width: 100%;
+    padding: 9px;
+    position: relative;
+
+    transition: background ease-in-out 300ms;
+}
+.thumbnail.active__thumb{
+    background: #414040;
+}
+.thumbnail:hover{
+    background: rgb(90, 88, 88);   
+}
+
+
+.thumbnail__photo {
+    display: flex;
+    align-items: center;
+}
+.thumbnail:active .thumbnail__photo {
+    transform: scale(0.95);
+}
+.thumbnail__name {
+    margin-left: 20px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+
+    color: #f7f7f7;
+}
+.thumbnail::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    opacity: 0.5;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.thumbnail__bar{
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background: #fff;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+.thumbnail.active__bar::after,
+.thumbnail__bar.active__bar{
+    visibility: visible;
+}
+
+
+
+.thumbnail__bar.active__bar {
+    animation: load linear;
+}
+@keyframes load {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}

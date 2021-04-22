@@ -1,0 +1,45 @@
+[
+    {
+      "id": 0,
+      "game_name": "Fortnite",
+      "game_thumb": "thumb1",
+      "game_photo": "photo1",
+      "genre": "Action"
+    },
+    {
+      "id": 1,
+      "game_name": "Final Fantasy 7 Remake",
+      "game_thumb": "thumb2",
+      "game_photo": "photo2",
+      "genre": "Fantasy"
+    },
+    {
+      "id": 2,
+      "game_name": "Dirt 5",
+      "game_thumb": "thumb3",
+      "game_photo": "photo3",
+      "genre": "Racing"
+    },
+    {
+      "id": 3,
+      "game_name": "Sekiro: Shadows Die Twice",
+      "game_thumb": "thumb4",
+      "game_photo": "photo4",
+      "genre": "Adventure"
+    },
+    {
+      "id": 4,
+      "game_name": "Borderlands 3",
+      "game_thumb": "thumb5",
+      "game_photo": "photo5",
+      "genre": "Action"
+    },
+    {
+      "id": 5,
+      "game_name": "rocket league",
+      "game_thumb": "thumb6",
+      "game_photo": "photo6",
+      "genre": "Racing"
+
+    }
+]

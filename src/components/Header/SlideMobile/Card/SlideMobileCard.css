@@ -1,0 +1,77 @@
+
+.slide__card {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.slide__card__img {
+    width: 100%;
+    height: 480px;
+}
+.slide__card__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide__card__details {
+    background: #0d3052;
+    padding: 34px 36px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.slide__game__genre {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #437cb4;
+}
+.slide__game__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 250px;
+    color: #ffffff;
+
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.slide__card__btn {
+    padding: 12px 16px ;
+    cursor: pointer;
+    background: #0061fd;
+
+    font-weight: normal;
+    font-size: 16px;
+
+    color: #ffffff;
+    transition: background 300ms ease-in-out;
+}
+.slide__card__btn:hover{
+    background: #0944a3;
+}
+
+.slide__card__btn img{
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 746px) {
+    .slide__card__details {
+        background: #0d3052;
+        padding: 34px 36px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .slide__card__btn{
+        margin-top: 16px;
+    }
+}
