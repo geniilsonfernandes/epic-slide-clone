@@ -11,12 +11,14 @@ const Cover = () => {
   });
 
   return (
-    <header className="mwfit">
-      <div className='header'>
+    <div className="overnone"> 
+    <header className="mwfit ">
+      <div className="header" >
       {window.innerWidth >= 746 || winWidth >= 746 ? <SlideDesktop /> : <SlideMobile />}
 
       </div>
     </header>
+    </div>
   );
 };
 

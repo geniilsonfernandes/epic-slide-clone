@@ -2,17 +2,26 @@
     display: flex;
     height: 488px;
     width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
 }
 .container_slide {
-    flex: 0 0 83%;
+    flex: 0 0 81%;
 
     display: flex;
     overflow: hidden;
     position: relative;
 }
 
-
 .container_thumbnail {
-    flex: 0 0 17%;
-    background: #2F2F2F;
+    flex: 0 0 19%;
+    background: #2f2f2f;
+}
+@media screen and (max-width: 1088px) {
+    .container_slide {
+        flex: 0 0 70%;
+    }
+    .container_thumbnail {
+        flex: 0 0 30%;
+    }
 }
